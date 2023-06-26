@@ -1,0 +1,38 @@
+// ! CSS Variables
+// :root {
+//   --primary-color: red;
+//   --secondary-color: salmon;
+//   --text-color: white;
+// }
+
+// .container {
+//   background-color: var(--primary-color);
+//   .main-header {
+//     color: var(--secondary-color);
+//   }
+// }
+
+// ! SASS Variable
+// $secondary-color: salmon;
+// $text-color: rgb(129, 102, 102);
+
+// .container {
+//   $primary-color: rgb(216, 164, 164);
+//   background-color: $primary-color;
+// }
+
+// .main-header {
+//   color: $text-color;
+// }
+
+// ! Map
+// $alert: (
+//   "danger": red,
+//   "alert": orange,
+//   "info": cyan,
+// );
+
+// h1 {
+//   color: map-get($alert, "info");
+//   background-color: map-get($alert, "danger");
+// }
